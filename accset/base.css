@@ -1,0 +1,105 @@
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+h3 {
+    font-size: 20px;
+    line-height: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+h6 {
+    font-size: 13px;
+    line-height: 13px;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    font-size: 15px;
+    line-height: 27px;
+}
+.row:after {
+    clear: both;
+}
+.column-inner::before, .column-inner::after {
+    content: " ";
+    display: table;
+}
+.row:before, .row:after {
+    content: " ";
+    display: table;
+}
+.column-inner::after {
+    clear: both;
+}
+.column-inner::before, .column-inner::after {
+    content: " ";
+    display: table;
+}
+.vc_clearfix:before, .vc_clearfix:after {
+    content: " ";
+    display: table;
+}
+.vc_clearfix:before, .vc_clearfix:after {
+    content: " ";
+    display: table;
+}
+.vc_clearfix:after {
+    clear: both;
+}
+.vc_clearfix:before, .vc_clearfix:after {
+    content: " ";
+    display: table;
+}
+.vc_clearfix:after {
+    clear: both;
+}
+.vc_clearfix:before, .vc_clearfix:after {
+    content: " ";
+    display: table;
+}
+.column_container>.column-inner {
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+.nicdark_section {
+    width: 100%;
+    float: left;
+}
+.travel_section {
+    float: left;
+    width: 100%;
+}
+.nd_travel_width_float {
+    width: 33%;
+    float: left;
+}
+.nd_travel_box_sizing_padding {
+    padding: 15px;
+    box-sizing: border-box;
+}
+input, textarea, select {
+    background-color: #f9f9f9;
+    outline: 0;
+    border: 1px solid #f1f1f1;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+input:not([type="image" i], [type="range" i], [type="checkbox" i], [type="radio" i]) {
+    overflow-clip-margin: 0px !important;
+    overflow: clip !important;
+}
