@@ -1,6 +1,6 @@
 
 * {
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 html {
@@ -29,6 +29,17 @@ p, h1, h2, h3, h4, h5, h6 {
 p {
     font-size: 15px;
     line-height: 27px;
+}
+input, textarea, select {
+    background-color: #f9f9f9;
+    outline: 0;
+    border: 1px solid #f1f1f1;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+input:not([type="image" i], [type="range" i], [type="checkbox" i], [type="radio" i]) {
+    overflow-clip-margin: 0px !important;
+    overflow: clip !important;
 }
 .row:after {
     clear: both;
@@ -76,6 +87,13 @@ p {
     padding-right: 15px;
     width: 100%;
 }
+.nd_options_clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
 .nicdark_section {
     width: 100%;
     float: left;
@@ -92,14 +110,36 @@ p {
     padding: 15px;
     box-sizing: border-box;
 }
-input, textarea, select {
-    background-color: #f9f9f9;
-    outline: 0;
-    border: 1px solid #f1f1f1;
-    padding: 10px 20px;
-    box-sizing: border-box;
+.nd_options_display_none {
+    display: none;
 }
-input:not([type="image" i], [type="range" i], [type="checkbox" i], [type="radio" i]) {
-    overflow-clip-margin: 0px !important;
-    overflow: clip !important;
+.row[data-vc-full-width] {
+    -webkit-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
+    overflow: hidden;
 }
+.vc_parallax {
+    position: relative;
+    overflow: hidden;
+  }
+  .vc_parallax > * {
+    position: relative;
+    z-index: 1;
+  }
+  .vc_parallax .vc_parallax-inner {
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: inherit;
+    background-size: cover;
+    z-index: 0;
+    background-position: 50% 0%;
+  }
+  .vc_parallax-inner iframe {
+    max-width: 1000%;
+  }
