@@ -27,6 +27,9 @@
         left: 0px !important;
         top: 0px !important;
     }     
+    .mobile_left_footer {
+        left: 5% !important;
+    }
     .nd_options_container {width:460px !important;}
     .nd_options_grid_1,.nd_options_grid_2,.nd_options_grid_3,.nd_options_grid_4,.nd_options_grid_5,.nd_options_grid_6,.nd_options_grid_7,.nd_options_grid_8,.nd_options_grid_9,.nd_options_grid_10,.nd_options_grid_11,.nd_options_grid_12{ width: 100%; }
 }
@@ -42,7 +45,7 @@
         padding-right: 0px !important;
     }
     .mobile_left_footer {
-        left: 60px !important;
+        left: 25% !important;
     }
     .nd_options_container{ width:300px !important;}
     .nd_options_max_width_280_iphone_port { max-width: 280px; }
@@ -244,6 +247,9 @@
     }
     .mobile_height_2 {
         height: 2000px !important;
+    }
+    .mobile_height_travel {
+        height: 360px !important;
     }
 }
 @media only screen and (min-width: 320px) and (max-width: 479px) {
