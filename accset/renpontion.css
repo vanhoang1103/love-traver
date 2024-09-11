@@ -143,3 +143,26 @@
         margin-bottom: -60px !important;
     }
 }
+@media only screen and (min-width: 768px) and (max-width: 959px) { 
+    .mobile_left_top_1 {
+        left: 0px !important;
+        top: 748px !important;
+    }
+    .mobile_left_top_2 {
+        left: 0px !important;
+        top: 1496px !important;
+    }
+    .mobile_left_top_3 {
+        left: 0px !important;
+        top: 2244px !important;
+    }
+    .mobile_left_top_4 {
+        left: 0px !important;
+        top: 2992px !important;
+    }
+    .mobile_left_top_5 {
+        left: 0px !important;
+        top: 3740px !important;
+    }
+
+}
