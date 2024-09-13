@@ -47,7 +47,10 @@
     .mobile_left_footer {
         left: 25% !important;
     }
-    .nd_options_container{ width:300px !important;}
+    .mobile_positions_unset {
+        position: unset !important;
+    }
+    .nd_options_container{ width:100% !important;}
     .nd_options_max_width_280_iphone_port { max-width: 280px; }
     .nd_options_display_none_iphone_port { display: none; }
     .nd_options_width_100_percentage_iphone_port { width: 100%; }
@@ -207,23 +210,23 @@
     }
     .mobile_left_top_1 {
         left: 0px !important;
-        top: 300px !important;
+        top: 450px !important;
     }
     .mobile_left_top_2 {
         left: 0px !important;
-        top: 600px !important;
+        top: 900px !important;
     }
     .mobile_left_top_3 {
         left: 0px !important;
-        top: 900px !important;
+        top: 1350px !important;
     }
     .mobile_left_top_4 {
         left: 0px !important;
-        top: 1200px !important;
+        top: 1800px !important;
     }
     .mobile_left_top_5 {
         left: 0px !important;
-        top: 1500px !important;
+        top: 2250px !important;
     }
     .mobile_left_top_1_1 {
         left: 0px !important;
@@ -234,13 +237,13 @@
         top: 1220px !important;
     }
     .mobile_height_1 {
-        height: 1800px !important;
+        height: 2600px !important;
     }
     .mobile_height {
         height: 141px !important;
     }
     .mobile_width {
-        width: 252px !important ;
+        width: 100% !important ;
     }
     .mobile_mg_top {
         margin-top: -210px !important;
